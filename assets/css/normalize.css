@@ -38,8 +38,16 @@
    */
   
   h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 5px;
   }
   
   /* Grouping content
@@ -63,7 +71,10 @@
   
   pre {
     font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-size: 18px; /* 2 */
+    margin-top: 5px;
+    margin-bottom: 5px;
+
   }
   
   /* Text-level semantics
@@ -96,6 +107,11 @@
   strong {
     font-weight: bolder;
   }
+
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
   
   /**
    * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -106,7 +122,8 @@
   kbd,
   samp {
     font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
+    font-size: 18px; /* 2 */
+    font-style: italic;
   }
   
   /**
