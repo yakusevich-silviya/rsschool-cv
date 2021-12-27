@@ -63,7 +63,7 @@ a:hover {
 }
 
 .header {
-  background-image: url(./assets/image/bg.png);
+  background-image: url(../image/bg.png);
   background-position: 20% 80%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,4 +253,8 @@ a:hover {
 
 .footer__github-link:hover {
   color: #bdcbd9;
+}
+
+.cv-content__code-js > span {
+    padding-left: 20px;
 }
