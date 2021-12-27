@@ -31,11 +31,6 @@ function addBinary(a,b) {
 }
 ```
 ### Education
-* Belarusian State Economic University
-    + Economic cybernetics
-* Stormnet Technologies  
-    + Software Testing 
-    
 ### Languages
 
 * Russian - native speaker;
